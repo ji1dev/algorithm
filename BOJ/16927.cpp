@@ -1,4 +1,4 @@
-// 16972번_배열 돌리기 2
+// 16927번_배열 돌리기 2
 #include <iostream>
 #define F_IO ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 using namespace std;
