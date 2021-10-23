@@ -5,6 +5,7 @@ using namespace std;
 int n, m, l, low, high, mid, ans, r_area[1001];
 bool check(int len){
     int sum = 0;
+    if(len == 0) return false; // 간격이 0인 경우 설치할 수 없음
     for(int i=1; i<=n+1; ++i){
         int diff = r_area[i]-r_area[i-1]; // 두 휴게소 사이 거리
         int cnt = (diff-1)/len; // 현재 길이 간격으로 설치할 수 있는 휴게소 개수 (설치된 위치 제외)
