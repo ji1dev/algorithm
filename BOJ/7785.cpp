@@ -1,4 +1,4 @@
-// 4673번_셀프 넘버
+// 7785번_회사에 있는 사람
 #include <iostream>
 #include <map>
 #include <string>
